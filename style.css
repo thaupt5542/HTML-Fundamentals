@@ -1,0 +1,66 @@
+html{
+background-color: whitesmoke;
+}
+
+ul{
+  text-align: right;
+  list-style: none;
+}
+
+ul li{
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+h1 {
+text-align:center;
+color:rgb(29, 158, 115);
+font-size: 60px;
+margin: 50px 0px;
+font-style:italic;
+}
+
+h2, p, ol{
+  width: 50%;
+  margin: 20px auto;
+}
+
+h2{
+  font-size: 25px;
+}
+
+p, ol{
+  font-size: 18px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 150 px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover{
+  color: darkblue;
+}
+
+input, textarea, button{
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  height: 30px;
+}
+
+textarea{
+  height: 70px;
+  resize: vertical;
+}
+
+button{
+  background-color: rgb(69, 230, 96);
+}
