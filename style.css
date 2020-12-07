@@ -9,7 +9,7 @@ ul{
 
 ul li{
   display: inline-block;
-  margin: 20px 0px;
+  margin: 20px;
 }
 
 h1 {
@@ -63,4 +63,10 @@ textarea{
 
 button{
   background-color: rgb(69, 230, 96);
+}
+
+@media (max-width:500px){
+  img{
+    width:100%;
+  }
 }
